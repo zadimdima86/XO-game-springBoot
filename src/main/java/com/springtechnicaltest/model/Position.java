@@ -6,12 +6,13 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotNull;
+import java.io.Serializable;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @EqualsAndHashCode
-public class Position {
+public class Position   implements Serializable {
     @NotNull
     int boardRow;
     @NotNull

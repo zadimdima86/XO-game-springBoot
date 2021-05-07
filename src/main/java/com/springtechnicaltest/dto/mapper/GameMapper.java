@@ -1,10 +1,12 @@
 package com.springtechnicaltest.dto.mapper;
 
-import com.springtechnicaltest.dto.PlayerDTO;
-import com.springtechnicaltest.model.Player;
+
+import com.springtechnicaltest.model.Game;
 import org.mapstruct.Mapper;
 import org.mapstruct.NullValueCheckStrategy;
 
+
 @Mapper(nullValueCheckStrategy = NullValueCheckStrategy.ALWAYS)
-public interface PlayerMapper extends EntityMapper<Player, PlayerDTO> {
+public interface GameMapper extends EntityMapper<Game, GameDTO> {
+
 }
