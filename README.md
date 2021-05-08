@@ -27,3 +27,13 @@ Pour assurer le bon fonctionnement de l ’application :
 
    Lancez le projet avec la commande : mvn spring-boot:run
 
+Comment Jouer?
+
+Créer 2 players via l'API: http://localhost:8081/player/create
+
+Créer le game avec un 1er joueur via l'API:  http://localhost:8081/game/create
+
+Ajouter le 2eme joueur au game  via l'API: http://localhost:8081/game/join
+
+Commencer à jouer en creant le 1er move via l'API: http://localhost:8081/move/create ,  ainsi de suite
+
